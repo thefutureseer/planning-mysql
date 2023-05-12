@@ -13,10 +13,26 @@ User.init( {
     type: DataTypes.STRING,
     allowNull: false
   },
+  phone: {
+    type: DataTypes.INTEGER,
+    allowNull: true, 
+  },
+  address: {
+    type: DataTypes.STRING,
+    allowNull: true
+  },
+  otherInfo: {
+    type: DataTypes.STRING,
+    allowNull: true
+  },
   email: {
     type: DataTypes.STRING,
     allowNull: false,
     unique: true
+  },
+  password: {
+    type: DataTypes.STRING,
+    allowNull: false
   }
 }, {
   sequelize,

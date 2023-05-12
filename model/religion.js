@@ -33,7 +33,7 @@ class Religion extends Sequelize.Model {}
 {
 sequelize,
 freezeTableName: true,
-timestamps: false,
+timestamps: true,
 modelName: 'religion',
 });
 
