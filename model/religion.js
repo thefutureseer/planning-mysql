@@ -34,7 +34,7 @@ class Religion extends Sequelize.Model {}
 sequelize,
 freezeTableName: true,
 timestamps: false,
-moduleName: 'religion',
+modelName: 'religion',
 });
 
 module.exports = Religion;
