@@ -71,3 +71,10 @@ CREATE TABLE user_preferences (
   FOREIGN KEY (user_id) REFERENCES User(id),
   FOREIGN KEY (religion_id) REFERENCES religion(id)
 );
+
+-- seed user_preferences
+INSERT INTO user_preferences (user_id, religion_id, beliefs, user_values, other_info)
+VALUES 
+  (1, 5, 'I believe in the Jewish faith and follow its traditions', 'Honesty, kindness, and hard work are important to me', 'I attend synagogue every week'),
+  (2, 9, 'I am a Christian and believe in the teachings of Jesus', 'Love, compassion, and forgiveness are my guiding values', 'I attend church every Sunday'),
+  (3, 7, 'I am a Buddhist and strive for inner peace and mindfulness', 'Compassion, wisdom, and equanimity are important to me', 'I meditate regularly');
