@@ -32,6 +32,12 @@ CREATE TABLE User (
     password VARCHAR(50) NOT NULL
 );
 
+-- seed users
+INSERT INTO User (name, email, phone, address, other_info, password)
+VALUES ('John Smith', 'john.smith@example.com', '555-1234', '123 Main St', 'Some other info', 'password123'),
+       ('Jane Doe', 'jane.doe@example.com', '555-5678', '456 Elm St', 'Some more info', 'secret456'),
+       ('Bob Johnson', 'bob.johnson@example.com', '555-2468', '789 Oak St', 'Even more info', 'password789');
+
 CREATE TABLE denomination (
   denomination_id INTEGER PRIMARY KEY,
   denomination_name TEXT,
