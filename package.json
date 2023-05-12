@@ -1,0 +1,22 @@
+{
+  "name": "mysql-plan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thefutureseer/planning-mysql.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thefutureseer/planning-mysql/issues"
+  },
+  "homepage": "https://github.com/thefutureseer/planning-mysql#readme",
+  "dependencies": {
+    "sequelize": "^6.31.1"
+  }
+}

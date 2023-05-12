@@ -1,4 +1,9 @@
-const Religion = sequelize.define('Religion', {
+const { Sequelize, DataTypes } = require('sequelize');
+const sequelize = require('../sequelizeConnection');
+
+class Religion extends Sequelize.Model {}
+
+ Religion.init({
   id: {
     type: DataTypes.INTEGER,
     primaryKey: true,
@@ -24,6 +29,12 @@ const Religion = sequelize.define('Religion', {
     type: DataTypes.TEXT,
     allowNull: false
   }
+},
+{
+sequelize,
+freezeTableName: true,
+timestamps: false,
+moduleName: 'religion',
 });
 
 module.exports = Religion;
