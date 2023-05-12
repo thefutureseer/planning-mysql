@@ -41,6 +41,21 @@ CREATE TABLE denomination (
   FOREIGN KEY (religion_id) REFERENCES religion(id)
 );
 
+-- denomination seeds
+INSERT INTO denomination (denomination_id, denomination_name, description, religion_id, other_info)
+VALUES
+  (1, 'Roman Catholic', 'The largest Christian denomination, led by the Pope in Vatican City.', 9, 'Founded in the 1st century AD.'),
+  (2, 'Eastern Orthodox', 'A Christian denomination primarily based in Eastern Europe and the Middle East.', 9, 'Split from Roman Catholicism in the Great Schism of 1054.'),
+  (3, 'Protestantism', 'A diverse group of Christian denominations that originated in the Reformation era.', 9, 'Includes Lutheranism, Calvinism, Anglicanism, and many others.'),
+  (4, 'Islamism', 'A movement within Islam that seeks to return to traditional Islamic values and institutions.', 10, 'Includes both peaceful and militant factions.'),
+  (5, 'Sufism', 'A mystical branch of Islam that emphasizes the inner spiritual experience.', 10, 'Practiced by both Sunni and Shia Muslims.'),
+  (6, 'Mahayana Buddhism', 'A branch of Buddhism that emphasizes compassion and wisdom.', 7, 'Predominant in China, Japan, Korea, and Vietnam.'),
+  (7, 'Theravada Buddhism', 'A branch of Buddhism that emphasizes the historical teachings of the Buddha.', 7, 'Predominant in Sri Lanka, Myanmar, Thailand, Cambodia, and Laos.'),
+  (8, 'Judaism (Orthodox)', 'A traditional Jewish denomination that emphasizes adherence to Jewish law.', 5, 'Believes that the Torah was given to Moses at Mount Sinai.'),
+  (9, 'Judaism (Reform)', 'A modern Jewish denomination that emphasizes individual autonomy and social justice.', 5, 'Emphasizes ethical values over ritual observance.'),
+  (10, 'Hinduism (Vaishnavism)', 'A major branch of Hinduism that emphasizes devotion to the god Vishnu.', 4, 'Includes the worship of other gods and goddesses as well.'),
+  (11, 'Hinduism (Shaivism)', 'A major branch of Hinduism that emphasizes the god Shiva as the supreme being.', 4, 'Includes the worship of other gods and goddesses as well.');
+
 CREATE TABLE user_preferences (
   user_id INTEGER,
   religion_id INTEGER,
