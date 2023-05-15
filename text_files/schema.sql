@@ -32,11 +32,25 @@ CREATE TABLE User (
     password VARCHAR(50) NOT NULL
 );
 
--- seed users
+--seed users
 INSERT INTO User (name, email, phone, address, other_info, password)
 VALUES ('John Smith', 'john.smith@example.com', '555-1234', '123 Main St', 'Some other info', 'password123'),
-       ('Jane Doe', 'jane.doe@example.com', '555-5678', '456 Elm St', 'Some more info', 'secret456'),
-       ('Bob Johnson', 'bob.johnson@example.com', '555-2468', '789 Oak St', 'Even more info', 'password789');
+('Jane Doe', 'jane.doe@example.com', '555-5678', '456 Elm St', 'Some more info', 'secret456'),
+('Bob Johnson', 'bob.johnson@example.com', '555-2468', '789 Oak St', 'Even more info', 'password789'),
+('Sarah Lee', 'sarah.lee@example.com', '555-1111', '456 Main St', 'Some other info', 'password123'),
+('Tom Jackson', 'tom.jackson@example.com', '555-2222', '789 Maple St', 'Some more info', 'secret456'),
+('Linda Chen', 'linda.chen@example.com', '555-3333', '123 Oak St', 'Even more info', 'password789'),
+('Mike Brown', 'mike.brown@example.com', '555-4444', '456 Pine St', 'Some other info', 'password123'),
+('Emily Davis', 'emily.davis@example.com', '555-5555', '789 Cedar St', 'Some more info', 'secret456'),
+('David Kim', 'david.kim@example.com', '555-6666', '123 Cherry St', 'Even more info', 'password789'),
+('Karen Lee', 'karen.lee@example.com', '555-7777', '456 Walnut St', 'Some other info', 'password123'),
+('Chris Lee', 'chris.lee@example.com', '555-8888', '789 Birch St', 'Some more info', 'secret456'),
+('Jessica Park', 'jessica.park@example.com', '555-9999', '123 Pine St', 'Even more info', 'password789'),
+('Eric Brown', 'eric.brown@example.com', '555-0000', '456 Maple St', 'Some other info', 'password123'),
+('Julia Kim', 'julia.kim@example.com', '555-1112', '789 Cedar St', 'Some more info', 'secret456'),
+('Mike Davis', 'mike.davis@example.com', '555-2223', '123 Cherry St', 'Even more info', 'password789'),
+('Stephanie Lee', 'stephanie.lee@example.com', '555-3334', '456 Walnut St', 'Some other info', 'password123');
+
 
 CREATE TABLE denomination (
   denomination_id INTEGER PRIMARY KEY,
@@ -77,7 +91,7 @@ INSERT INTO user_preferences (user_id, religion_id, beliefs, user_values, other_
 VALUES 
   (1, 5, 'I believe in the Jewish faith and follow its traditions', 'Honesty, kindness, and hard work are important to me', 'I attend synagogue every week'),
   (2, 9, 'I am a Christian and believe in the teachings of Jesus', 'Love, compassion, and forgiveness are my guiding values', 'I attend church every Sunday'),
-  (3, 7, 'I am a Buddhist and strive for inner peace and mindfulness', 'Compassion, wisdom, and equanimity are important to me', 'I meditate regularly')
+  (3, 7, 'I am a Buddhist and strive for inner peace and mindfulness', 'Compassion, wisdom, and equanimity are important to me', 'I meditate regularly'),
   (4, 2, 'I am a Muslim and follow the teachings of the Quran', 'Faith, compassion, and humility guide my actions', 'I pray five times a day'),
   (5, 3, 'I am a Hindu and follow the traditions of my culture', 'Dharma, karma, and ahimsa are important to me', 'I celebrate Diwali and Holi'),
   (6, 6, 'I am a Taoist and seek harmony with the natural world', 'Simplicity, compassion, and humility guide my actions', 'I practice tai chi and qi gong'),
