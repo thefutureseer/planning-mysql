@@ -77,4 +77,19 @@ INSERT INTO user_preferences (user_id, religion_id, beliefs, user_values, other_
 VALUES 
   (1, 5, 'I believe in the Jewish faith and follow its traditions', 'Honesty, kindness, and hard work are important to me', 'I attend synagogue every week'),
   (2, 9, 'I am a Christian and believe in the teachings of Jesus', 'Love, compassion, and forgiveness are my guiding values', 'I attend church every Sunday'),
-  (3, 7, 'I am a Buddhist and strive for inner peace and mindfulness', 'Compassion, wisdom, and equanimity are important to me', 'I meditate regularly');
+  (3, 7, 'I am a Buddhist and strive for inner peace and mindfulness', 'Compassion, wisdom, and equanimity are important to me', 'I meditate regularly')
+  (4, 2, 'I am a Muslim and follow the teachings of the Quran', 'Faith, compassion, and humility guide my actions', 'I pray five times a day'),
+  (5, 3, 'I am a Hindu and follow the traditions of my culture', 'Dharma, karma, and ahimsa are important to me', 'I celebrate Diwali and Holi'),
+  (6, 6, 'I am a Taoist and seek harmony with the natural world', 'Simplicity, compassion, and humility guide my actions', 'I practice tai chi and qi gong'),
+  (7, 8, 'I am a Sikh and believe in equality and service', 'Honesty, compassion, and selfless service are my guiding values', 'I wear a turban as a symbol of my faith'),
+  (8, 10, 'I am a Wiccan and follow the cycles of nature', 'Respect for nature, balance, and personal responsibility are important to me', 'I celebrate the solstices and equinoxes'),
+  (9, 1, 'I am a Bahá''í and believe in the oneness of humanity', 'Unity, justice, and service to others are important to me', 'I pray and meditate regularly'),
+  (10, 4, 'I am a Jain and follow the path of non-violence', 'Compassion, non-violence, and respect for all life are my guiding values', 'I practice ahimsa in my daily life'),
+  (11, 5, 'I am Jewish and believe in the Torah and Talmud', 'Family, community, and tradition are important to me', 'I celebrate Passover and Hanukkah'),
+  (12, 7, 'I am a Zen Buddhist and seek enlightenment through meditation', 'Compassion, mindfulness, and equanimity are important to me', 'I practice zazen and mindfulness meditation'),
+  (13, 9, 'I am a Catholic and believe in the Holy Trinity and the teachings of the Church', 'Love, forgiveness, and service to others are important to me', 'I attend Mass every Sunday'),
+  (14, 2, 'I am a Sunni Muslim and follow the Hadith and Sunnah', 'Faith, compassion, and humility guide my actions', 'I pray five times a day'),
+  (15, 6, 'I am a Confucian and believe in ethics, education, and social order', 'Filial piety, respect for authority, and social harmony are important to me', 'I study the Analects and the Five Classics'),
+  (16, 8, 'I am a Khalsa Sikh and believe in the Khalsa code of conduct', 'Honesty, compassion, and selfless service are my guiding values', 'I wear the five Ks as a symbol of my faith'),
+  (17, 10, 'I am a Druid and follow the cycles of nature and the wisdom of the ancestors', 'Respect for nature, the land, and the ancestors are important to me', 'I celebrate the solstices and equinoxes'),
+  (18, 3, 'I am a Shaivite and follow the teachings of Shiva', 'Devotion, compassion, and self-discipline are important to me', 'I practice yoga and meditation');
