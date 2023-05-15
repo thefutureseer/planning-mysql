@@ -80,7 +80,21 @@ VALUES
   (8, 'Judaism (Orthodox)', 'A traditional Jewish denomination that emphasizes adherence to Jewish law.', 5, 'Believes that the Torah was given to Moses at Mount Sinai.'),
   (9, 'Judaism (Reform)', 'A modern Jewish denomination that emphasizes individual autonomy and social justice.', 5, 'Emphasizes ethical values over ritual observance.'),
   (10, 'Hinduism (Vaishnavism)', 'A major branch of Hinduism that emphasizes devotion to the god Vishnu.', 4, 'Includes the worship of other gods and goddesses as well.'),
-  (11, 'Hinduism (Shaivism)', 'A major branch of Hinduism that emphasizes the god Shiva as the supreme being.', 4, 'Includes the worship of other gods and goddesses as well.');
+  (11, 'Hinduism (Shaivism)', 'A major branch of Hinduism that emphasizes the god Shiva as the supreme being.', 4, 'Includes the worship of other gods and goddesses as well.'),
+  (12, 'Jainism (Digambara)', 'A sect of Jainism that believes in nudity as a means of shedding attachment to material possessions.', 2, 'Literally means "sky-clad" or naked.'),
+  (13, 'Jainism (Shvetambara)', 'A sect of Jainism that allows its followers to wear white clothing and carry basic possessions.', 2, 'Literally means "white-clad" or "clad in white".'),
+  (14, 'Taoism (Quanzhen School)', 'One of the major schools of Taoism that emphasizes meditation, martial arts, and alchemy.', 3, 'Founded by Wang Chongyang in the 12th century.'),
+  (15, 'Taoism (Zhengyi School)', 'One of the major schools of Taoism that emphasizes the use of talismans, divination, and exorcism.', 3, 'Founded by Zhang Daoling in the 2nd century.'),
+  (16, 'Confucianism (Neo-Confucianism)', 'A movement that developed during the Song Dynasty and sought to reconcile Confucianism with Taoism and Buddhism.', 1, 'Emphasized the importance of moral cultivation and self-discipline.'),
+  (17, 'Confucianism (New Confucianism)', 'A modern interpretation of Confucianism that emphasizes the importance of individual autonomy, social justice, and democracy.', 1, 'Developed in the 20th century in response to Western modernity and the decline of traditional Confucian values.'),
+  (18, 'Shintoism (State Shinto)', 'A form of Shintoism that was used to promote Japanese nationalism and emperor worship during the Meiji period.', 6, 'Was abolished after World War II and replaced with a separation of religion and state.'),
+  (19, 'Shintoism (Folk Shinto)', 'A traditional form of Shintoism that emphasizes the worship of nature, ancestors, and local deities.', 6, 'Was practiced by the majority of Japanese people until the rise of State Shintoism.'),
+  (20, 'Baha i Faith (Baha i Administration)', 'The administrative and governing system of the Baha i Faith, which includes elected councils at the local, national, and international levels.', 8, 'Aims to promote unity, peace, and justice through the establishment of a global Baha i community.'),
+  (21, 'Zoroastrianism (Parsi)', 'A community of Zoroastrians who migrated to India from Iran during the 7th century.', 11, 'Has had a significant impact on Indian culture and society, particularly in the state of Gujarat.'),
+  (22, 'Zoroastrianism (Iranian)', 'A community of Zoroastrians who still reside in Iran.', 11, 'Has declined significantly in Iran due to religious persecution and emigration.'),
+  (23, 'Atheism (Secular Humanism)', 'A philosophy that emphasizes reason, ethics, and human welfare, without belief in supernatural or religious doctrines.', 12, 'Aims to promote critical thinking, social justice, and environmental sustainability.'),
+  (24, 'Agnosticism', 'A position that holds that the existence of God or gods is unknown or unknowable.', 12, 'Emphasizes the importance of skepticism and critical inquiry.');
+  
 
 CREATE TABLE user_preferences (
   user_id INTEGER,
