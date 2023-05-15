@@ -19,7 +19,12 @@ VALUES
 ('Buddhism', 'A spiritual tradition that originated in ancient India around 2,500 years ago, and which emphasizes the teachings of the Buddha and the pursuit of enlightenment.', 'India'),
 ('Taoism', 'A Chinese philosophy and religion that originated in ancient China around 2,500 years ago, and which emphasizes the pursuit of harmony with nature and the cultivation of inner wisdom.', 'China'),
 ('Christianity', 'A monotheistic religion based on the life and teachings of Jesus of Nazareth, which emerged in the Roman Empire around 2,000 years ago.', 'Israel'),
-('Islam', 'A monotheistic religion founded by the prophet Muhammad in the Arabian Peninsula around 1,400 years ago.', 'Saudi Arabia');
+('Islam', 'A monotheistic religion founded by the prophet Muhammad in the Arabian Peninsula around 1,400 years ago.', 'Saudi Arabia'),
+('Sikhism', 'a monotheistic religion that originated in India and emphasizes the importance of social justice and the pursuit of spiritual and moral well-being.', 'India, Belief in one God, karma, reincarnation, and the importance of service and charity, Daily prayers, meditation, community service, and wearing the Five Ks'),
+('Jainism', 'an ancient religion that originated in India and is characterized by its emphasis on non-violence, self-control, and asceticism.', 'India, Belief in non-violence, karma, and the importance of spiritual purity and self-control, Fasting, meditation, self-discipline, and following the Five Great Vows'),
+('Confucianism', 'a philosophical and ethical system that originated in China and is based on the teachings of Confucius, which emphasize the importance of moral and social order.', 'China, Emphasis on moral values such as benevolence, justice, and loyalty, and the importance of education and respect for authority, The practice of li, or proper behavior, and the importance of rituals and ceremonies'),
+('Shintoism', 'a religion that originated in Japan and is characterized by the worship of spirits and the veneration of ancestors and natural phenomena.', 'Japan, Belief in kami, or spirits, and the importance of respect for ancestors and nature, Worship at shrines and participation in festivals and rituals');
+
 
 
 CREATE TABLE User (
